@@ -113,7 +113,6 @@ const HomePage = () => {
           <section className="mb-12">
             <div className="mb-6 flex flex-col items-center text-center">
               <span className="section-subtitle">Forback Special</span>
-              <h2 className="text-2xl font-bold">Featured Products from Forback</h2>
             </div>
 
             {forbackItems.length === 0 ? (
@@ -161,7 +160,6 @@ const HomePage = () => {
           <section>
             <div className="mb-6 flex flex-col items-center text-center">
               <span className="section-subtitle">DidiLab</span>
-              <h2 className="text-2xl font-bold">Products with "Senior" in the name</h2>
             </div>
             
             {seniorItems.length === 0 ? (
