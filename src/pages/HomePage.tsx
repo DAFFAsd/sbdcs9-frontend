@@ -22,7 +22,7 @@ interface Store {
 }
 
 const HomePage = () => {
-  const [items, setItems] = useState<Item[]>([]);
+  const [_items, setItems] = useState<Item[]>([]);
   const [stores, setStores] = useState<Store[]>([]);
   const [forbackItems, setForbackItems] = useState<Item[]>([]);
   const [seniorItems, setSeniorItems] = useState<Item[]>([]);
